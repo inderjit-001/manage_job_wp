@@ -1,0 +1,33 @@
+# WordPress core
+/wp-admin/
+/wp-includes/
+/wp-content/plugins/
+/wp-content/upgrade/
+/wp-content/cache/
+
+# Ignore uploads but allow custom themes and plugins
+/wp-content/uploads/
+
+# Ignore sensitive config files (but you can version a sample file instead)
+wp-config.php
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node / Composer dependencies (if applicable)
+node_modules/
+vendor/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore IDE/editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
